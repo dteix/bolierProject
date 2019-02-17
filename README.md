@@ -10,9 +10,11 @@
 
 1943- The US Army asks Bell Laboratories to design a machine to assist in testing its M-9 gun director, a type of analog computer that aims large guns to their targets. Mathematician George Stibitz recommends using a relay-based calculator for the project. The result was the Relay Interpolator, later called the Bell Labs Model II. The Relay Interpolator used 440 relays, and since it was programmable by paper tape, was used for other applications following the war.
 
-1944- Harvard Mark 1 is completed by Harvard physics professor Howard Aiken, and designed and built by IBM, the Harvard Mark 1 is a room-sized, relay-based calculator. The machine had a fifty-foot long camshaft running the length of machine that synchronized the machine’s thousands of component parts and used 3,500 relays. The Mark 1 produced mathematical tables but was soon superseded by electronic stored-program computers.
+1944- Harvard Mark 1 is completed by Harvard physics professor Howard Aiken, and designed and built by IBM, the Harvard Mark 1 is a room-sized, relay-based calculator. The machine had a fifty-foot long camshaft running the length of the machine that synchronized the machine’s thousands of component parts and used 3,500 relays. The Mark 1 produced mathematical tables but was soon superseded by electronic stored-program computers.
 
-1949- Developed in 1949 for transmitting radar signals by Jack Harrington’s group at the Air Force Cambridge Research Center (AFCRC) near Boston, the modem modulates digital data into sounds, and demodulates received sounds into digital data. 
+1949- Modems were developed in 1949 for transmitting radar signals by Jack Harrington’s group at the Air Force Cambridge Research Center (AFCRC) near Boston, the modem modulates digital data into sounds, and demodulates received sounds into digital data. 
+  
+1956- At MIT, researchers begin experimenting with direct keyboard input to computers, a precursor to today´s normal mode of operation.
  
 1957 – Russia puts Sputnik into orbit.
 
@@ -20,10 +22,20 @@
 
 1958 – NASA opens for business via Eisenhower executive order.
 
-1961 – Leonard Kleinrock of MIT – First paper on packet switching theory.
+1961 – Leonard Kleinrock of MIT wrote the first paper on packet switching theory.
 
-1962 – J.C.R. Licklider of MIT – memos on “Galactic Network Concept”
+1962 – J.C.R. Licklider of MIT writes memos on “Galactic Network Concept”
 
-1969 – Larry Roberts – heads project that connects first two ARPANET sites – UCLA and Stanford Research Institute.
+1965- ARPA sponsors study on cooperative network of time-sharing computers.
 
-1972 – Bob Kahn – demonstrates ARPANET at the International Computer Communication Conference (ICCC) 
+1968- Network Working Group, headed by Steve Crocker, loosely organized to develop host level protocols for communication over the ARPANET. 
+
+1969 – Larry Roberts heads the project that connects first two ARPANET sites – UCLA and Stanford Research Institute.
+
+1972 – Bob Kahn demonstrates ARPANET at the International Computer Communication Conference (ICCC) 
+
+1972 – Ray Tomlinson discovered the first basic email program using “@”
+
+1973- Bob Metcalfe's Harvard PhD Thesis outlines idea for Ethernet. The concept was tested on Xerox PARC's Alto computers, and the first Ethernet network called the Alto Aloha System 
+
+ 
