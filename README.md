@@ -38,4 +38,12 @@
 
 1973- Bob Metcalfe's Harvard PhD Thesis outlines idea for Ethernet. The concept was tested on Xerox PARC's Alto computers, and the first Ethernet network called the Alto Aloha System 
 
- 
+1974- BBN opens Telenet, the first public packet data service, a commercial version of ARPANET.
+
+1975- First ARPANET mailing list, MsgGroup, is created by Steve Walker. John Vittal develops MSG, the first all-inclusive email program providing replying, forwarding, and filing capabilities.
+
+1979- ARPA establishes the Internet Configuration Control Board. 
+
+1980- ARPANET grinds to a complete halt because of an accidentally-propagated status-message virus  
+
+
