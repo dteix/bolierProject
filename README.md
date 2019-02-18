@@ -55,9 +55,9 @@
    it is the image that one can see if if the website is added to the home screen of a device 
    
 10 .   < link rel="stylesheet" href="css/normalize.css" > : the rel attribue speciefies the relationship btween the
-      html file with the normalize.css file that are being linked. b/c normalize.css is a stylesheet, I have to specify rel = 'stylesheet'
-      the href attribute specifies the location of the file named normalize.css file. in this case, it's inside
-      the folder named 'css' that is inside the folder of the html file that I am using. as a result, 
+      html file with the normalize.css file that are being linked. b/c normalize.css is a stylesheet, I have to specify 
+      rel = 'stylesheet' the href attribute specifies the location of the file named normalize.css file. in this case, 
+      it's inside the folder named 'css' that is inside the folder of the html file that I am using. as a result, 
       href = 'css/normalize.css'
 
 11 .   < link rel="stylesheet" href="css/main.css" > : coding a link element referring to an external style sheet.
@@ -67,9 +67,23 @@
 12.    < meta name="theme-color" content="#fafafa" > : add a meta tag to the web page using "theme color" and set the 
       color to to a valid CSS color in this case #fafafa (the color hex composed of 98% red, 98% green, and 98% blue). 
       In this case the color hex (light grey) is applied to the browser 
-    
-    
-    
+  
+13.   </head> : closing head tag of the head element. the < head > element is a container for all the head elements
+      the < head > element can include a title for the scripts, styles, document, meta information, etc.
+      
+      The following tags, or elements, can go inside the < head > element: 
+      < title > : defines the title of the document in the browser toolbar, provides a title for the page once added to 
+                  favorites, and displays a title for the page in the results from a search engine
+      < style > : to define the style information for an HTML document 
+      < base > : used for specifying a default URL & default target for all links on a page
+      < link > : link to an external style sheet
+      < meta > : provides metadata about the HTML document. Metadata does not get displayed on the page, but it will be
+                 machine parsable 
+      < script > : to define a client-side script in JavaScript. it has scripting statements, or it points to an 
+                   external script file through the sr attribute. Uses for JavaScript are the manipulation of images,
+                   validation of form, and changing of contents dynamically
+      < noscript > : defines alternate content for users that have scripts as disabled or are using a browser that 
+                     does not support scripts 
     
     
     
