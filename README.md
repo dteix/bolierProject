@@ -46,6 +46,14 @@
 
 1980- ARPANET grinds to a complete halt because of an accidentally-propagated status-message virus  
 
+1983 – Jon Postel, Paul Mockapedis, and Craig Partridge design the Domain Name System (DNS)
+
+1990 – Tim Berners-Lee creates World Wide Web
+
+1993 – Marc Andreesen, Develops Mosaic web browser
+
+1996 – Microsoft vs Netscape, Browser wars 
+
 
 #Boilerplate Index File Information
 #February 20, 2019
@@ -109,7 +117,7 @@
       this is a separate file that has the CSS for the web page. href attributes get usually coded with the URL relative
       to the current file 
       
-12.    < meta name="theme-color" content="#fafafa" > : add a meta tag to the web page using "theme color" and set the 
+12 .    < meta name="theme-color" content="#fafafa" > : add a meta tag to the web page using "theme color" and set the 
       color to to a valid CSS color in this case #fafafa (the color hex composed of 98% red, 98% green, and 98% blue). 
       In this case the color hex (light grey) is applied to the browser 
   
