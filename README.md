@@ -20,9 +20,10 @@ David Salazar
    < element > = opening tag
    </element > = closing tag 
 
-4. 
+4. meta charset="utf-8" : universal text format 8 for all languages (except Asian languages) that 
+   read left to right
 
-
+5. 
 
 * body = element 
   
