@@ -43,15 +43,28 @@
    device-width = physical width of device's screen 
    initial-scale = 1 is the initial zoom. 1 is normal (without zooming in) 
    
-8.  < link rel="manifest" href="site.webmanifest" > : information about the application (name, author, icon,
+8 . < link rel="manifest" href="site.webmanifest" > : information about the application (name, author, icon,
    description, and how the application should behave once installed in a device) in a JSON text file. 
-   informs details for websites installed on the homescreen of a device. web app manifests are websites 
-   that can be installed to a device's homescreen without an app store, the
-   capability to work offlien, and receiv push notifications 
+   informs details for websites installed on the homescreen of a device. web app manifests are websites that 
+   can be installed to a device's homescreen without an app store, the capability to work offlien, and receive
+   push notifications 
     
    linking a web manifest to a web page
 
-9. < link rel="apple-touch-icon" href="icon.png" > : provides back up name and an icon for the web page
+9 . < link rel="apple-touch-icon" href="icon.png" > : provides back up name and an icon for the web page.
+   it is the image that one can see if if the website is added to the home screen of a device 
+   
+10 .   < link rel="stylesheet" href="css/normalize.css" > : the rel attribue speciefies the relationship btween the
+      html file with the normalize.css file that are being linked. b/c normalize.css is a stylesheet, I have to specify rel = 'stylesheet'
+      the href attribute specifies the location of the file named normalize.css file. in this case, it's inside
+      the folder named 'css' that is inside the folder of the html file that I am using. as a result, 
+      href = 'css/normalize.css'
+
+11 .   < link rel="stylesheet" href="css/main.css" > : coding a link element referring to an external style sheet.
+      this is a separate file that has the CSS for the web page. href attributes get usually coded with the URL relative
+      to the current file 
+
+12.    
     
     
     
