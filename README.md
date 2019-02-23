@@ -91,11 +91,9 @@
    
   Users can set the viewpoint of a website 
    
-7.< meta name="viewport" content="width=device-width, initial-scale=1" > : This is used by the browser to 
-  render a web page the size of a device's screen used to view it  
-  width = width of virtual viewport of device
-  device-width = physical width of device's screen 
-  initial-scale = 1 is the initial zoom. 1 is normal (without zooming in) 
+7.< meta name="viewport" content="width=device-width, initial-scale=1" > : This is used by the browser to render a web 
+  page the size of a device's screen used to view it width = width of virtual viewport of device device-width = physical 
+  width of device's screen initial-scale = 1 is the initial zoom. 1 is normal (without zooming in) 
    
 8.< link rel="manifest" href="site.webmanifest" > : information about the application (name, author, icon,
   description, and how the application should behave once installed in a device) in a JSON text file. 
