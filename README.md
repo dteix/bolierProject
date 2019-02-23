@@ -55,9 +55,9 @@
 1996 – Microsoft vs Netscape, Browser wars 
 
 
-#Boilerplate Index File Information
-#February 20, 2019
-#David Salazar
+# Boilerplate Index File Information
+# February 20, 2019
+# David Salazar
 
 1.< !doctype html >*: A doctype declaration which tells the browser that the document is using HTML.
 
