@@ -125,3 +125,8 @@
                  etc)
                  
 15 .  < p >Hello world! This is HTML5 Boilerplate.< /p > : < p > is used for defining paragraphs 
+
+16 .  < script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script > : Modernizsr is a JavaScript library 
+      that finds HTML5 and CSS3 in a user's browser
+      
+17 .  
