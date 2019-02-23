@@ -208,11 +208,15 @@
 
 6..gitignore file : contains the files and directories that Git will ignore before making a commit 
     
-7.404.html : provides an error message to show that the server could not find what an user requested, and provide a 
+7.404.html file : provides an error message to show that the server could not find what an user requested, and provide a 
   message saying that a web page does not exist or was not found
 
-8.browserconfig.xml : 
+8.browserconfig.xml file : used to define pinned site customizations for backgrounds, badge updates, tile notifications, 
+  and customizations are set using external XML files instead of metadata in the HTML markup of a website
 
+9.favicon.ico file : used for displaying the icon of a website left to an URL
+
+10.humans.txt file : provides information about people that are involved with a website
 
 index file : has a default HTML skeleton that is the basis of pages for a website using html5-boilerplate
  
