@@ -165,20 +165,20 @@
   - TOC file : information on getting started with HTML, CSS, JavaScript, .gitignore, .editorconfig, Server 
     Configuration, robots.txt, humans.txt, browserconfig.xml.
     
-    css.md : explains Normalize.css (for making different browsers render web page consistently according to HTML 5 and 
-    CSS standards), main.css (typography settings for improving readability and build up on css.md)
+      * css.md : explains Normalize.css (for making different browsers render web page consistently according to HTML 5 and 
+      CSS standards), main.css (typography settings for improving readability and build up on css.md)
     
-    extend.md : information on making HTML5 Boilerplate projects better with App Stores information, Google Universal 
-    Analytics, security.text, etc
+      * extend.md : information on making HTML5 Boilerplate projects better with App Stores information, Google Universal 
+      Analytics, security.text, etc
      
-    faq.md : frequently asked questions
+      * faq.md : frequently asked questions
      
-    html.md : information on using HTML, and HTML5 Boilerplate homepage link
+      * html.md : information on using HTML, and HTML5 Boilerplate homepage link
     
-    js.md : information on default JavaScript code included in a HTML5 Boilerplate project, javascript plugins, and 
-    the vendor directory that has third party library code
+      * js.md : information on default JavaScript code included in a HTML5 Boilerplate project, javascript plugins, and 
+      the vendor directory that has third party library code
     
-    misc.md : 
+  - misc.md : 
     
       * gitignore (used for avoiding specific project-level files and directories from being kept in 
       source control)
