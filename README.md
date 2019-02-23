@@ -165,17 +165,17 @@
 
 # Terms 
 
-1. GIT- is a distributed version-control system for tracking changes in source code during software development
+GIT- is a distributed version-control system for tracking changes in source code during software development
 
-2. GitHub- is a web-based hosting service for version control using Git
+GitHub- is a web-based hosting service for version control using Git
 
-3. Repository- is another word for project
+Repository- is another word for project
 
-4. Branch- A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
+Branch- A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
 
-5. Clone- is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
+Clone- is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
 
-6. Commit- Records changes to the repository
+Commit- Records changes to the repository
 
 # Tutorial
       
