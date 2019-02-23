@@ -59,85 +59,105 @@
 #February 20, 2019
 #David Salazar
 
-1 . *< !doctype html >*: A doctype declaration which tells the browser that the document is using HTML.
+1.< !doctype html >*: A doctype declaration which tells the browser that the document is using HTML.
 
-2 . *< html class="no-js" lang="" >* : The "no-js" class gets removed by a Javascript library (Modernizr), 
-   and this gets replaced with a js class. When Modernizr loads, it replaces no-js with js.
+2.< html class="no-js" lang="" > : The "no-js" class gets removed by a Javascript library (Modernizr), 
+  and this gets replaced with a js class. When Modernizr loads, it replaces no-js with js.
       
-   This is a way to style with OR without Javascript.
+  This is a way to style with OR without Javascript.
    
-   In other words, CSS styles can be defined for JavaScript-enabled browsers and for browsers that 
-   have JavaScript disabled. lang="" sets the language of the web page.
+  In other words, CSS styles can be defined for JavaScript-enabled browsers and for browsers that 
+  have JavaScript disabled. lang="" sets the language of the web page.
 
-3 . *< head >*: HTML tag also known as an element that is the container for all head elements. can have
-   document title, styles, and other inforrmation. information about the web page itself. 
+3.< head >: HTML tag also known as an element that is the container for all head elements. can have
+  document title, styles, and other inforrmation. information about the web page itself. 
    
-   < element > = opening tag
+  < element > = opening tag
    
-   < /element > = closing tag 
+  < /element > = closing tag 
 
-4 . *< meta charset="utf-8" >* : Universal text format 8 for all languages (except Asian languages) that 
-   read left to right.
+4.< meta charset="utf-8" > : Universal text format 8 for all languages (except Asian languages) that 
+  read left to right.
 
-5 . < title> </ title > : The title of the webpage goes in between <title></title>. 
-   ex: < title >Web xPage Title</ title>
+5.< title> </ title > : The title of the webpage goes in between <title></title>. 
+  ex: < title >Web xPage Title</ title>
    
-6 . < meta name="description" content="" > : Meta stands for metadata or information about specific data.
-   <meta> gives metadata of a HTML document. Metadata does not get displayed on a page, but it will 
-   instead be machine parsable
+6.< meta name="description" content="" > : Meta stands for metadata or information about specific data. < meta > gives  
+  metadata of a HTML document. Metadata does not get displayed on a page, but it will instead be machine parsable
    
-   Meta tags/elements are used to specify things like page description, a document's author, keywords,
-   last modified (as well as other metadata), how to display/reload the content of a page, and search 
-   engine keywords   
+  Meta tags/elements are used to specify things like page description, a document's author, keywords,
+  last modified (as well as other metadata), how to display/reload the content of a page, and search 
+  engine keywords   
    
-   Users can set the viewpoint of a website 
+  Users can set the viewpoint of a website 
    
-7 . < meta name="viewport" content="width=device-width, initial-scale=1" > : This is used by the browser to 
-   render a web page the size of a device's screen used to view it  
-   width = width of virtual viewport of device
-   device-width = physical width of device's screen 
-   initial-scale = 1 is the initial zoom. 1 is normal (without zooming in) 
+7.< meta name="viewport" content="width=device-width, initial-scale=1" > : This is used by the browser to 
+  render a web page the size of a device's screen used to view it  
+  width = width of virtual viewport of device
+  device-width = physical width of device's screen 
+  initial-scale = 1 is the initial zoom. 1 is normal (without zooming in) 
    
-8 . < link rel="manifest" href="site.webmanifest" > : information about the application (name, author, icon,
-   description, and how the application should behave once installed in a device) in a JSON text file. 
-   informs details for websites installed on the home screen of a device
+8.< link rel="manifest" href="site.webmanifest" > : information about the application (name, author, icon,
+  description, and how the application should behave once installed in a device) in a JSON text file. 
+  informs details for websites installed on the home screen of a device
    
-9 . < link rel="apple-touch-icon" href="icon.png" > : provides back up name and an icon for the web page.
-   it is the image that one can see if if the website is added to the home screen of a device 
+9.< link rel="apple-touch-icon" href="icon.png" > : provides back up name and an icon for the web page.
+  it is the image that one can see if if the website is added to the home screen of a device 
    
-10 .   < link rel="stylesheet" href="css/normalize.css" > : In rel = 'stylesheet' the href attribute specifies the 
-      location of the file named normalize.css file. in this case, it's inside the folder named 'css' that is inside the 
-      folder of the html file that I am using. as a result, href = 'css/normalize.css'
+10.< link rel="stylesheet" href="css/normalize.css" > : In rel = 'stylesheet' the href attribute specifies the 
+   location of the file named normalize.css file. in this case, it's inside the folder named 'css' that is inside the 
+   folder of the html file that I am using. as a result, href = 'css/normalize.css'
       
-11 .  < link rel="stylesheet" href="css/main.css" > : coding a link element referring to an external style sheet.
-      this is a separate file that has the CSS for the web page. href attributes get usually coded with the URL relative
-      to the current file 
+11.< link rel="stylesheet" href="css/main.css" > : coding a link element referring to an external style sheet.
+   this is a separate file that has the CSS for the web page. href attributes get usually coded with the URL relative
+   to the current file 
       
-12 .  < meta name="theme-color" content="#fafafa" > : add a meta tag to the web page using "theme color" and set the 
-      color to to a valid CSS color in this case #fafafa (the color hex composed of 98% red, 98% green, and 98% blue). 
-      In this case the color hex (light grey) is applied to the browser 
+12.< meta name="theme-color" content="#fafafa" > : add a meta tag to the web page using "theme color" and set the 
+   color to to a valid CSS color in this case #fafafa (the color hex composed of 98% red, 98% green, and 98% blue). 
+   In this case the color hex (light grey) is applied to the browser 
   
-13 .  < /head > : closing head tag of the head element. the < head > element is a container for all the head elements
-      the < head > element can include a title for the scripts, styles, document, meta information, etc
+13.< /head > : closing head tag of the head element. the < head > element is a container for all the head elements
+   the < head > element can include a title for the scripts, styles, document, meta information, etc
      
     
-14 .  < body > : the document's body containing all contents of an HTML document (ex: text, hyperlinks, images, tables, 
+14.< body > : the document's body containing all contents of an HTML document (ex: text, hyperlinks, images, tables, 
                  etc)
                  
-15 .  < p >Hello world! This is HTML5 Boilerplate.< /p > : < p > is used for defining paragraphs 
+15.< p >Hello world! This is HTML5 Boilerplate.< /p > : < p > is used for defining paragraphs 
 
-16 .  < script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script > : Modernizsr is a JavaScript library 
-      that finds HTML5 and CSS3 in a user's browser
+16.< script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script > : Modernizsr is a JavaScript library 
+   that finds HTML5 and CSS3 in a user's browser
       
-17 .  < script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" 
-      crossorigin="anonymous"></script > :  JQuery is a JavaScript library used to wrap lines of code written in 
-      JavaScript into methods that get called with single lines of code. This is loading JQuery
+17.< script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" 
+   crossorigin="anonymous"></script > :  JQuery is a JavaScript library used to wrap lines of code written in 
+   JavaScript into methods that get called with single lines of code. This is loading JQuery
       
-18 .  < <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')
-      < /script > : optimizes the way in which JQuery is loaded
+18.< script >window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')
+   < /script > : optimizes the way in which JQuery is loaded
       
-19 .  <script src="js/plugins.js"></script> : a plug in, or a piece of code written in JavaScript. Provide useful JQuery
-      methods to be used with JQuery library methods 
+19.< script src="js/plugins.js" >< /script > : a plug in, or a piece of code written in JavaScript. Provide useful 
+   JQuery methods to be used with JQuery library methods 
       
-20 .  
+20.< script src="js/main.js"></script > : establishes an entry point to the application 
+
+21.< script > : defines a client-side script, JavaScript, that can either contain scripting elements or point to an 
+   external script file using the src attribute
+      
+22.window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+   ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+   
+   ga stands for google analytics. this a JavaScript library used for measuring user interaction with a website. It is 
+   used for the tracking of an user's ID
+   
+23.< /script  > : closing script element
+
+24.< script src="https://www.google-analytics.com/analytics.js" async defer >< /script > : provides small performance 
+   boost on modern browsers, but at the same time can degrade to synchronous loading on older mobile browsers
+   
+25.< / body > : closing tag of the body tag
+
+26.< /HTML > : closing of the HTML tag or HyperText Markup Language. This is the file retrieved by a web browser once it 
+   builds a request for a web page in the form of a HTTP that gets rendered or translated to a HTML web page 
+
+   
       
