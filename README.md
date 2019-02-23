@@ -156,6 +156,10 @@
 
 26.< /HTML > : closing of the HTML tag or HyperText Markup Language. This is the file retrieved by a web browser once it 
    builds a request for a web page in the form of a HTTP that gets rendered or translated to a HTML web page 
+   
+# Boilerplate: Descriptions Of All Files
+# February 23, 2019
+# David Salazar
 
    
       
