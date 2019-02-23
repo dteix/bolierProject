@@ -173,6 +173,9 @@
 
 4. Branch- A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
 
+5. Clone- is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
+
+6. Commit- Records changes to the repository
 
 # Tutorial
       
