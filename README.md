@@ -129,4 +129,11 @@
 16 .  < script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script > : Modernizsr is a JavaScript library 
       that finds HTML5 and CSS3 in a user's browser
       
-17 .  
+17 .  < script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" 
+      crossorigin="anonymous"></script > :  JQuery is a JavaScript library used to wrap lines of code written in 
+      JavaScript into methods that get called with single lines of code. This is loading JQuery
+      
+18 .  < <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')
+      < /script > : optimizes the way in which JQuery is loaded
+      
+19 .  
