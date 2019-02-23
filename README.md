@@ -161,5 +161,27 @@
 # February 23, 2019
 # David Salazar
 
+1.doc file : contains TOC.md (table of contents), css.md, extend.md, faq.md, html.md, js.md, misc.md, and usage.md
+  - TOC file : information on getting started with HTML, CSS, JavaScript, .gitignore, .editorconfig, Server 
+    Configuration, robots.txt, humans.txt, browserconfig.xml.
+  - css.md : explains Normalize.css (for making different browsers render web page consistently according to HTML 5 and 
+    CSS standards), main.css (typography settings for improving readability and build up on css.md)
+  - extend.md : information on making HTML5 Boilerplate projects better with App Stores information, Google Universal 
+    Analytics, security.text, etc 
+  - faq.md : frequently asked questions 
+  - html.md : information on using HTML, and HTML5 Boilerplate homepage link
+  - js.md : information on default JavaScript code included in a HTML5 Boilerplate project, javascript plugins, and 
+    the vendor directory that has third party library code
+  - misc.md : contains .gitignore (used for avoiding specific project-level files and directories from being kept in 
+    source control), .editorconfig (encourages and helps people define and maintain consistent coding styles between 
+    different editors, and interactive development environment (IDE), Server Configuration (H5BP with a .htaaccess file 
+    for Apache HTTP server), robots.txt (gives instructions to web robots on what is to be crawled from the website), 
+    humans.txt (provides information about people that are involved with a website), browserconfig.xml (used to 
+    customize the tile displayed when users pin a web site with a Windows 8.1 start screen and allows for customizing 
+    tile colors, custom images, and live tiles).
+  - usage.md : explains the basic structure of a HTML file, listing of the major parts involved, and how to usethem.
+    
+2.index file : has a default HTML skeleton that is the basis of pages for a website using html5-boilerplate
+ 
    
       
