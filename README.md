@@ -214,11 +214,16 @@
 8.browserconfig.xml file : used to define pinned site customizations for backgrounds, badge updates, tile notifications, 
   and customizations are set using external XML files instead of metadata in the HTML markup of a website
 
-9.favicon.ico file : used for displaying the icon of a website left to an URL
+9.favicon.ico file : used for displaying the icon of a website left to an URL. ico is a file format that has a
+  collection of images of different sizes and color depths
 
 10.humans.txt file : provides information about people that are involved with a website
 
-index file : has a default HTML skeleton that is the basis of pages for a website using html5-boilerplate
+11.icon.png : an icon based on pixels, so it cannot be upscaled without losss of quality. png is a specific image
+
+12.index file : has a default HTML skeleton that is the basis of pages for a website using html5-boilerplate
+
+13.robots.txt file : gives instructions to web robots on what is to be crawled from the website
  
    
        
