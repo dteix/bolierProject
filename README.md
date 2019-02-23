@@ -136,4 +136,8 @@
 18 .  < <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')
       < /script > : optimizes the way in which JQuery is loaded
       
-19 .  
+19 .  <script src="js/plugins.js"></script> : a plug in, or a piece of code written in JavaScript. Provide useful JQuery
+      methods to be used with JQuery library methods 
+      
+20 .  
+      
