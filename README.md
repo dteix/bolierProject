@@ -224,6 +224,41 @@
 12.index file : has a default HTML skeleton that is the basis of pages for a website using html5-boilerplate
 
 13.robots.txt file : gives instructions to web robots on what is to be crawled from the website
- 
-   
-       
+
+# Dennis Teixeira, David Salazar
+# Git Tutorial
+# February 25th, 2019
+
+# Terms 
+
+GIT- is a distributed version-control system for tracking changes in source code during software development
+
+GitHub- is a web-based hosting service for version control using Git
+
+Repository- is another word for project
+
+Branch- A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
+
+Clone- is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
+
+Commit- Records changes to the repository
+
+# Tutorial
+      
+First thing you have to do is create a GitHub repository. You can do that by logging in to your github account and clicking on "New" next to where it says Repositories.
+
+![alt text](img2/addnewrepo.png)
+
+You will then be directed to this page, where you will name your repository and add a description if you would like.
+
+![alt text](img2/createrepo.png) 
+
+
+Once you have a created your repository you can create a new branch for you to start working in. You do that by going into your IDE (WebStorm) and opening up your new repository. Once there you can add a new branch by clicking on "Git:(branch name) the bottom right hand corner as seen below.
+
+![alt text](img2/addnewbranch.png)  
+
+Then you will click on "New Branch". Once you do that you will name your branch and then you can begin working in it. 
+
+![alt text](img2/newbranch.png)
+
