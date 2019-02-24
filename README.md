@@ -198,10 +198,10 @@ Then you will click on "New Branch". Once you do that you will name your branch 
 
 After you have a created a new branch you can make a commit or record a change by clicking on the green check mark on the top right hand corner of Webstorm.
 
-![alt text](img2/Making a commit.png)
+![alt text](img2/Makingcommit.png)
 
 When you click on that green check mark it will take you to a window where you will state what type of commit you are making (Feature, Task, Fix).
 
-![alt text](img2/Type of commit and description.png) 
+![alt text](img2/Typeofcommitanddescription.png) 
 
 
