@@ -181,18 +181,18 @@ Commit- Records changes to the repository
       
 First thing you have to do is create a GitHub repository. You can do that by logging in to your github account and clicking on "New" next to where it says Repositories.
 
-![alt text](img2/Screen Shot 2019-02-23 at 3.58.36 PM.png)
+![alt text](img2/addnewrepo.png)
 
 You will then be directed to this page, where you will name your repository and add a description if you would like.
 
-![alt text](img2/Screen Shot 2019-02-23 at 4.45.24 PM.png) 
+![alt text](img2/createrepo.png) 
 
 
 Once you have a created your repository you can create a new branch for you to start working in. You do that by going into your IDE (WebStorm) and opening up your new repository. Once there you can add a new branch by clicking on "Git:(branch name) the bottom right hand corner as seen below.
 
-![alt text](img2/Screen Shot 2019-02-23 at 5.10.32 PM.png)  
+![alt text](img2/addnewbranch.png)  
 
 Then you will click on "New Branch". Once you do that you will name your branch and then you can begin working in it. 
 
-![alt text](img2/Screen Shot 2019-02-23 at 5.14.23 PM.png)
+![alt text](img2/newbranch.png)
 
