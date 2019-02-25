@@ -237,13 +237,14 @@ GitHub- is a web-based hosting service for version control using Git
 
 Repository- is another word for project
 
-Branch- A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
+Branch- A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically. 
+Always make a new branch before merging work into the main branch to serve as back up 
 
 Clone- is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
 
-Commit- Records changes to the repository
+Commit- Records changes to the repository. A change to a branch must be done before committing 
 
-Push- Updates remote refs along with associated objects
+Push- Updates remote refs along with associated objects. Push is used to submit the work from an updated branch
 
 Pull- Is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
 
@@ -251,9 +252,9 @@ Merge- Lets you take the independent lines of development created by git branch 
 
 Merge Conflict-  Happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.
 
-Fetch- Downloads commits, files, and refs from a remote repository into your local repo.
+Fetch- Downloads commits, files, and refs from a remote repository into your local repo. This automatically updates the branch that your fellow collaborator has been working on
 
-Remote- Is basically a bookmark for a different repository from which you may wish to pull or push code. 
+Remote- Is basically a bookmark for a different repository from which you may wish to pull or push code. This will be used to add the link to the html5-boilerplate framework 
 
 
 # Tutorial
@@ -265,6 +266,10 @@ First thing you have to do is create a GitHub repository. You can do that by log
 You will then be directed to this page, where you will name your repository and add a description if you would like.
 
 ![alt text](img2/createrepo.png) 
+
+Select initialize repository with a README, and add Node (in the add .gitignore option, and MIT for the lincense)
+
+![alt text](image/select_Node_andlicense.PNG)
 
 
 Once you have a created your repository you can create a new branch for you to start working in. You do that by going into your IDE (WebStorm) and opening up your new repository. Once there you can add a new branch by clicking on "Git:(branch name) the bottom right hand corner as seen below.
@@ -279,8 +284,26 @@ After you have a created a new branch you can make a commit or record a change b
 
 ![alt text](img2/Makingcommit.png)
 
+A commit is performed after you have made a change to your branch. Please go to your gitignore file, and type in .idea. you are now ready to commit
+
+![alt text](image/gitignore.PNG)
+
+![alt text](image/gitignore_add_dotidea.PNG)
+
+You are now ready to commit
+
 When you click on that green check mark it will take you to a window where you will state what type of commit you are making (Feature, Task, Fix).
 
 ![alt text](img2/Typeofcommitanddescription.png) 
 
+After committing you are ready to push 
 
+In order to add html5-boilerplate into your current branch, go to the html5-boilerplate github page and copy the the address
+
+![alt text](image/selectcloneordownload.PNG)
+
+Go into your webstorm project and select VCS, GIT, remotes. Add htmly5-bolierplate's web address as one of the remotes 
+
+![alt text](image/added_html5andwebsite.PNG)
+
+You are now ready to commit and push your updated branch with html5
