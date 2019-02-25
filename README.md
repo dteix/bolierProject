@@ -177,6 +177,19 @@ Clone- is a Git command line utility which is used to target an existing reposit
 
 Commit- Records changes to the repository
 
+Push- Updates remote refs along with associated objects
+
+Pull- Is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+Merge- Lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+Merge Conflict-  Happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.
+
+Fetch- Downloads commits, files, and refs from a remote repository into your local repo.
+
+Remote- Is basically a bookmark for a different repository from which you may wish to pull or push code. 
+
+
 # Tutorial
       
 First thing you have to do is create a GitHub repository. You can do that by logging in to your github account and clicking on "New" next to where it says Repositories.
