@@ -307,3 +307,5 @@ Go into your webstorm project and select VCS, GIT, remotes. Add htmly5-bolierpla
 ![alt text](image/added_html5andwebsite.PNG)
 
 You are now ready to commit and push your updated branch with html5-boilerplate
+
+To one of your branches into the branch you are currently working on, select the branch, and click merge into current  
