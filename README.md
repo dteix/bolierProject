@@ -243,6 +243,19 @@ Clone- is a Git command line utility which is used to target an existing reposit
 
 Commit- Records changes to the repository
 
+Push- Updates remote refs along with associated objects
+
+Pull- Is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+Merge- Lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+Merge Conflict-  Happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.
+
+Fetch- Downloads commits, files, and refs from a remote repository into your local repo.
+
+Remote- Is basically a bookmark for a different repository from which you may wish to pull or push code. 
+
+
 # Tutorial
       
 First thing you have to do is create a GitHub repository. You can do that by logging in to your github account and clicking on "New" next to where it says Repositories.
@@ -261,4 +274,13 @@ Once you have a created your repository you can create a new branch for you to s
 Then you will click on "New Branch". Once you do that you will name your branch and then you can begin working in it. 
 
 ![alt text](img2/newbranch.png)
+
+After you have a created a new branch you can make a commit or record a change by clicking on the green check mark on the top right hand corner of Webstorm.
+
+![alt text](img2/Makingcommit.png)
+
+When you click on that green check mark it will take you to a window where you will state what type of commit you are making (Feature, Task, Fix).
+
+![alt text](img2/Typeofcommitanddescription.png) 
+
 
